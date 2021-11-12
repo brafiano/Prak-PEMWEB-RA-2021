@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Billy Rafiano Octova</title>
+
+        <link rel="stylesheet" type="text/css" href="minggu3.css">
+        <script src="minggu3.js" defer></script>
+    </head>
+    <body>
+    <div class="std">
+            <div class="tema">
+                <label for="theme">Pilih Tema Bro</label>
+                <select id="pilihtema" onchange="theme()">
+                    <option value="Gelap" class="dark">Gelap</option>
+                    <option value="Terang" class="light" selected>Terang</option>
+                </select>
+            </div>
+            
+            <div class="bienvenido">
+                <h1>WELCUM!</h1>
+            </div>
+            
+
+            <div class="teks">
+                <label for="dosen">Pilih Dosen Favorit</label>
+                <select id="dosen" onchange="pildos()">
+                    <option value="Angga" selected>Bapak Angga</option>
+                    <option value="Indra">Bapak Indra</option>
+                    <option value="Skrekap">Skrekap</option>
+                </select>
+                <p id="desc"></p>                
+            </div>
+
+            <div class="faktorial">
+                <p>Nilai Faktorial !</p>
+                <lable for="factorial">Masukan sebuah angka :</lable>
+                <input id="numbers" >
+                <button id="jumlah" onclick="count()">Hitung</button>
+                <p id="hasil"></p>
+            </div>
+        </div>                
+    </body>
+</html>
