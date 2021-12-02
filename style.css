@@ -1,0 +1,49 @@
+
+*{
+	margin: auto;
+	padding:0;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	font: "bebas-neue";
+}
+
+.container{
+	margin: 10px;
+	width: auto;
+	height: auto;
+}
+
+header{
+	background-color:rgb(3, 83, 3);
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid rgb(3, 83, 3);
+
+}
+.body{
+	margin: 100px;
+	width: auto;
+	height: auto;
+	background-color: rgb(3, 83, 3);
+}
+div{
+	border: 1px solid rgb(3, 83, 3);
+}
+input{
+	background-color: greenyellow;
+	align: right;
+}
+h2{
+	text-align: center;
+	text-shadow:4px 0 0 black ;
+	font-size: 35px;
+	color: #d4ffd6;
+	font: "Fantasy";
+	
+}
+h4{
+	text-align: center;
+}
